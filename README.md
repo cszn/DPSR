@@ -1,6 +1,6 @@
 # DPSR
 
-
+# Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels (CVPR, 2019)
 
 The left is the blurry LR image. The right is the super-resolved image by DPSRGAN with scale factor 4.
 
