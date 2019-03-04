@@ -41,7 +41,7 @@ are considered.
          + -- + x4_g
          + -- + x2_m
          + -- + x3_m
-         + -- + x4_m  # low-resolution images of scale factor 4 with Gaussian blur kernels
+         + -- + x4_m  # low-resolution images of scale factor 4 with motion blur kernels
 
 You can generate x2_d, ..., x4_m by generate_blurry_LR_images.m with Matlab or
 you can download x2_d, ..., x4_m from:
