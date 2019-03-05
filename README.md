@@ -4,15 +4,17 @@
 
 The left is the blurry LR image. The right is the super-resolved image by DPSRGAN with scale factor 4.
 
-<img src="testsets/BSD68/x4_m/test_02_m_13.png" width="400px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_02_m_13.png" width="400px"/>
+<img src="testsets/BSD68/x4_m/test_02_m_13.png" width="72px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_02_m_13.png" width="288px"/>
+<img src="testsets/BSD68/x4_m/test_03_m_24.png" width="72px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_03_m_24.png" width="288px"/>
 
-<img src="testsets/BSD68/x4_m/test_03_m_24.png" width="400px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_03_m_24.png" width="400px"/>
+<img src="testsets/BSD68/x4_m/test_39_m_32.png" width="72px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_39_m_32.png" width="288px"/>
+<img src="testsets/BSD68/x4_m/test_01_m_19.png" width="72px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_01_m_19.png" width="288px"/>
 
-<img src="testsets/BSD68/x4_m/test_39_m_32.png" width="400px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_39_m_32.png" width="400px"/>
+<img src="testsets/BSD68/x4_m/test_14_m_14.png" width="120px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_14_m_14.png" width="480px"/>
 
-<img src="testsets/BSD68/x4_m/test_14_m_14.png" width="400px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_14_m_14.png" width="400px"/>
+<img src="testsets/BSD68/x4_m/test_33_m_06.png" width="120px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_33_m_06.png" width="480px"/>
 
-<img src="testsets/BSD68/x4_m/test_33_m_06.png" width="400px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_33_m_06.png" width="400px"/>
+
 
 
 # Requirements and Dependencies
