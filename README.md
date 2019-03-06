@@ -2,7 +2,7 @@
 
 # Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels (CVPR, 2019)
 
-# Results
+***
 
 The left is the blurry LR image. The right is the super-resolved image by DPSRGAN with scale factor 4.
 
@@ -18,6 +18,24 @@ Run [demo_test_dpsr.py](demo_test_dpsr.py) to produce the following results.
 <img src="testsets/BSD68/x4_m/test_14_m_14.png" width="120px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_14_m_14.png" width="480px"/>
 
 <img src="testsets/BSD68/x4_m/test_33_m_06.png" width="120px"/> <img src="testsets/BSD68/x4_m_dpsrgan/test_33_m_06.png" width="480px"/>
+
+***
+
+Super-resolved images of LR image [chip.png](testsets/real_imgs/LR/chip.png) by DPSR with scale factors 2, 3 and 4.
+
+Run [demo_test_dpsr_real.py](demo_test_dpsr_real.py) to produce the following results.
+
+
+<img src="testsets/real_imgs/LR/chip.png" width="109px"/>  LR
+
+<img src="testsets/real_imgs/x4_dpsr/chip_x2.png" width="218px"/>  x2
+
+<img src="testsets/real_imgs/x4_dpsr/chip_x3.png" width="327px"/>  x3
+
+<img src="testsets/real_imgs/x4_dpsr/chip_x4.png" width="436px"/>  x4
+
+
+
 
 
 
