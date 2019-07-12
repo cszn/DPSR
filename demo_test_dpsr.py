@@ -150,7 +150,7 @@ def main():
                 util.imshow(img_L) if show_img else None
 
                 np.random.seed(seed=0)  # for reproducibility
-                img_L = util.unit2single(img_L) + np.random.normal(0, noise_level_img, img_L.shape)
+                img_L = util.uint2single(img_L) + np.random.normal(0, noise_level_img, img_L.shape)
 
                 # --------------------------------
                 # (2) kernel
