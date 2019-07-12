@@ -118,7 +118,7 @@ def main():
     img = util.imread_uint(os.path.join(L_folder, im), n_channels=n_channels)
     h, w = img.shape[:2]
     util.imshow(img, title='Low-resolution image') if show_img else None
-    img = util.unit2single(img)
+    img = util.uint2single(img)
     img_L = util.single2tensor4(img)
 
     # --------------------------------
