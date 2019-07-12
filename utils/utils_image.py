@@ -142,19 +142,19 @@ def imsave(img, img_path):
 
 '''
 # =======================================
-# numpy(single) <--->  numpy(unit)
+# numpy(single) <--->  numpy(uint)
 # numpy(single) <--->  tensor
-# numpy(unit)   <--->  tensor
+# numpy(uint)   <--->  tensor
 # =======================================
 '''
 
 
 # --------------------------------
-# numpy(single) <--->  numpy(unit)
+# numpy(single) <--->  numpy(uint)
 # --------------------------------
 
 
-def unit2single(img):
+def uint2single(img):
 
     return np.float32(img/255.)
 
@@ -164,7 +164,7 @@ def single2uint(img):
     return np.uint8((img*255.).round())
 
 
-def unit162single(img):
+def uint162single(img):
 
     return np.float32(img/65535.)
 
@@ -175,7 +175,7 @@ def single2uint16(img):
 
 
 # --------------------------------
-# numpy(unit) <--->  tensor
+# numpy(uint) <--->  tensor
 # uint (HxWxn_channels (RGB) or G)
 # --------------------------------
 
@@ -259,7 +259,7 @@ def tensor2img(tensor, out_type=np.uint8, min_max=(0, 1)):
             'Only support 4D, 3D and 2D tensor. But received with dimension: {:d}'.format(n_dim))
     if out_type == np.uint8:
         img_np = (img_np * 255.0).round()
-        # Important. Unlike matlab, numpy.unit8() WILL NOT round by default.
+        # Important. Unlike matlab, numpy.uint8() WILL NOT round by default.
     return img_np.astype(out_type)
 
 
