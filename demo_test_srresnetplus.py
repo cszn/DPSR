@@ -132,7 +132,7 @@ def main():
             img = util.imread_uint(os.path.join(L_folder, im), n_channels=n_channels)
 
             np.random.seed(seed=0)  # for reproducibility
-            img = util.unit2single(img) + np.random.normal(0, noise_level_img, img.shape)
+            img = util.uint2single(img) + np.random.normal(0, noise_level_img, img.shape)
 
             util.imshow(img, title='Low-resolution image') if show_img else None
 
