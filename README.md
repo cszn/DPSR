@@ -2,6 +2,12 @@
 
 # Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels (CVPR, 2019)
 
+
+# Training and testing codes for the super-resolver prior ([PyTorch](https://github.com/cszn/KAIR))
+- [main_train_dpsr.py](https://github.com/cszn/KAIR/blob/master/main_train_dpsr.py)
+
+- [main_test_dpsr.py](https://github.com/cszn/KAIR/blob/master/main_test_dpsr.py)
+
 ***
 
 The left is the blurry LR image. The right is the super-resolved image by DPSRGAN with scale factor 4.
