@@ -57,6 +57,7 @@ Run [demo_test_dpsr_real.py](demo_test_dpsr_real.py) to produce the following re
   title={Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels},
   author={Zhang, Kai and Zuo, Wangmeng and Zhang, Lei},
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1671--1681},
   year={2019}
 }
 ```
