@@ -2,6 +2,7 @@
 
 # Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels (CVPR, 2019)
 
+- Related work: [DPIR](https://github.com/cszn/DPIR)
 
 # Training and testing codes for the super-resolver prior ([PyTorch](https://github.com/cszn/KAIR))
 - [main_train_dpsr.py](https://github.com/cszn/KAIR/blob/master/main_train_dpsr.py)
@@ -52,7 +53,7 @@ Run [demo_test_dpsr_real.py](demo_test_dpsr_real.py) to produce the following re
 
 
 # Citation
-```
+```BibTex
 @inproceedings{zhang2019deep,
   title={Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels},
   author={Zhang, Kai and Zuo, Wangmeng and Zhang, Lei},
